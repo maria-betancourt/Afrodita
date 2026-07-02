@@ -1,7 +1,16 @@
-*{
-    background-color: white;
+header{
+    color:#dbaf1c;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px 8%;
 }
-
+nav a{
+    color: purple;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
 h3{
     color: #D4AF37
 }
