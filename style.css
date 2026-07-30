@@ -3,7 +3,7 @@ header{
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:20px 8%;
+    padding: 20px 8%;
 }
 nav a{
     color: purple;
@@ -15,5 +15,52 @@ h3{
     color: #D4AF37
 }
 p{
-    color: black;
+    color: rgb(0, 0, 0);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: white;
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+    gap:25px;
+}
+.producto{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+   
+}
+}
+
+/* Encabezado */
+
+header{
+    background-color: white;
+}
+
+.banner{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    width: 5000px;
+}
+
+footer{
+    background-color: rgb(41, 3, 41);
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 5px 5%;
+p{
+    color: white;
+}
 }
